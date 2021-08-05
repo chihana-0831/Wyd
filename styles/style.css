@@ -2,7 +2,7 @@
 
 body {
   font-family: arial black;
-  padding-top: 80px;
+  padding-top: 140px;
 }
 /* header */
 header {
@@ -47,29 +47,73 @@ a:hover {
   text-align: center;
 }
 
-.signin,
-.signup {
+.to_signin,
+.to_signup {
   width: 120px;
   height: 50px;
   margin: 10px;
-  font-size: 15px;
+  font-size: 17px;
   font-family: arial black;
   border: 2px solid black;
   border-radius: 7px;
 }
 
-.signin {
+.to_signin {
   background: pink;
 }
 
-.signup {
+.to_signup {
   background: powderblue;
+}
+
+.to_signin:hover {
+  color: darkgray;
+}
+
+.to_signup:hover {
+  color: darkgray;
+}
+
+/* sign-in page */
+
+.signin_form {
+  font-size: 20px;
+  margin-top: 90px;
+  text-align: center;
+}
+
+.signin {
+  background: pink;
+  width: 120px;
+  height: 50px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  font-size: 17px;
+  font-family: arial black;
+  border: 2px solid black;
+  border-radius: 7px;
 }
 
 .signin:hover {
   color: darkgray;
 }
 
-.signup:hover {
-  color: darkgray;
+.name,.email,.grade,.password {
+  margin: 10px;
+}
+
+.submit {
+  font-family: 'Arial Unicode ms';
+  font-size: 15px;
+  color: blue;
+  text-decoration: underline;
+}
+
+.submit:hover {
+  text-decoration: none;
+  color: indigo;
+}
+
+.createyouraccount{
+  margin-top: 0px;
 }
