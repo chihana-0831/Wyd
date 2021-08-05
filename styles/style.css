@@ -1,76 +1,75 @@
 @charset "utf-8";
 
-body{
-    font-family:arial black;
-    padding-top:80px;
+body {
+  font-family: arial black;
+  padding-top: 80px;
 }
 /* header */
-header{
-    width:100%;
-    padding: 5px 10px;
-    position:fixed;
-    top:0;
+header {
+  width: 100%;
+  padding: 5px 10px;
+  position: fixed;
+  top: 0;
 }
 
 .logo {
-    width: 110px;
+  width: 110px;
 }
 
 a {
-    text-decoration: none;
-    font-size:large; 
-    color:black;
-    align-items:center;
+  text-decoration: none;
+  font-size: large;
+  color: black;
+  align-items: center;
 }
-a:hover{
-    text-decoration: underline; 
+a:hover {
+  text-decoration: underline;
 }
 
-.post,.matching,.classes,.mypage {
-    margin: 5%;
-    text-shadow:1px 1px 5px rgb(80, 224, 224);
+.post,
+.matching,
+.classes,
+.mypage {
+  margin: 5%;
+  text-shadow: 1px 1px 5px rgb(80, 224, 224);
 }
 
 /* service page */
 
 .donttext {
-    font-family:arial black;
-    text-align: center;
-    margin-top:200px;
-    margin-bottom:200px;
+  font-family: arial black;
+  text-align: center;
+  margin-top: 200px;
+  margin-bottom: 200px;
 }
 
 .button_include {
-    text-align: center;
+  text-align: center;
 }
 
-.signin,.signup {
-    width:120px;
-    height:50px;
-    margin:10px;
-    font-size: 15px;
-    font-family: arial black;
-    border: 2px solid black;
-    border-radius: 7px;
+.signin,
+.signup {
+  width: 120px;
+  height: 50px;
+  margin: 10px;
+  font-size: 15px;
+  font-family: arial black;
+  border: 2px solid black;
+  border-radius: 7px;
 }
 
-.signin{
-    background:pink;
-    }
-
- .signup{
-    background:powderblue;
+.signin {
+  background: pink;
 }
 
-.signin:hover{
-    color: darkgray;
+.signup {
+  background: powderblue;
 }
 
-.signup:hover{
-    color: darkgray;
+.signin:hover {
+  color: darkgray;
 }
 
-
-
-
-
+.signup:hover {
+  color: darkgray;
+}
