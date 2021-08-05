@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+img {
+    width: 100px;
+}
+
+header {
+    font-family:arial black;
+}
+
+a {
+    text-decoration: none;
+    font-size:large; 
+    color:black;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+span {
+    margin: 10px;
+    text-shadow:1px 1px 5px rgb(80, 224, 224);
+}
+
+
