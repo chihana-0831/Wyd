@@ -9,8 +9,10 @@
 
 <header>
     <img src="../images/html.png" alt="logo" class="logo">
-    <a href="#"><span class="post">Post</span></a>
-    <a href="#"><span class="matching">Matching</span></a>
-    <a href="#"><span class="classes">Classes</span></a>
-    <a href="#"><span class="mypage">My Page</span></a>
+    <div class="as">
+      <a href="#"><span class="post">Post</span></a>
+      <a href="#"><span class="matching">Matching</span></a>
+      <a href="#"><span class="classes">Classes</span></a>
+      <a href="#"><span class="mypage">My Page</span></a>
+</div>
 </header>

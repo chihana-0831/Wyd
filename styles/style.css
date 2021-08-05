@@ -2,28 +2,28 @@
 
 body {
   font-family: arial black;
-  padding-top: 140px;
+  padding-top: 14%;
 }
 /* header */
 header {
+  height: 30%;
   width: 100%;
-  padding: 5px 10px;
+  margin-top: 8px;
   position: fixed;
   top: 0;
 }
 
 .logo {
+  margin-left: 10px;
   width: 110px;
 }
 
 a {
   text-decoration: none;
-  font-size: large;
-  color: black;
-  align-items: center;
 }
-a:hover {
-  text-decoration: underline;
+
+.as {
+  text-align: center;
 }
 
 .post,
@@ -31,7 +31,16 @@ a:hover {
 .classes,
 .mypage {
   margin: 5%;
-  text-shadow: 1px 1px 5px rgb(80, 224, 224);
+  font-size: large;
+  font-family: arial;
+  font-weight: bold;
+  color: black;
+  text-shadow: 2px 2px 1px rgb(80, 224, 224);
+}
+
+.post:hover,.matching:hover,.classes:hover,.mypage:hover {
+  font-family: arial black;
+  text-shadow: 4px 4px 1px rgb(80, 224, 224);
 }
 
 /* service page */
@@ -39,8 +48,8 @@ a:hover {
 .donttext {
   font-family: arial black;
   text-align: center;
-  margin-top: 200px;
-  margin-bottom: 200px;
+  margin-top: 25%;
+  margin-bottom: 25%;
 }
 
 .button_include {
@@ -74,49 +83,69 @@ a:hover {
   color: darkgray;
 }
 
-/* sign-in page */
+/* sign-up page */
+
+.signup_form {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 20%;
+}
+
+.signup_form h3 {
+  text-shadow: 1px 1px 3px skyblue;
+}
+
+.next {
+  margin-top: 30px;
+  margin-left: 320px;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  font-family: arial black;
+  font-size: large;
+  border: none;
+  background-color: transparent;
+}
+
+.next:hover {
+  text-decoration: none;
+  color: skyblue;
+}
+
+/* sign in page */
 
 .signin_form {
-  font-size: 20px;
-  margin-top: 90px;
   text-align: center;
+  font-size: 20px;
+  margin-top: 20%;
+}
+
+.signin_form h3 {
+  text-shadow: 1px 1px 3px palevioletred;
 }
 
 .signin {
-  background: pink;
-  width: 120px;
-  height: 50px;
-  margin-top: 20px;
-  margin-bottom: 0px;
-  font-size: 17px;
+  margin-top: 30px;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
   font-family: arial black;
-  border: 2px solid black;
-  border-radius: 7px;
+  font-size: large;
+  border: none;
+  background-color: transparent;
 }
 
 .signin:hover {
-  color: darkgray;
+  text-decoration: none;
+  color: palevioletred;
 }
 
-.name,
-.email,
-.grade,
-.password {
-  margin: 10px;
-}
-
-.submit {
+.create_account {
   font-family: "Arial Unicode ms";
   font-size: 15px;
   color: blue;
-  text-decoration: underline;
-}
-
-.submit:hover {
   text-decoration: none;
-  color: indigo;
 }
 
-.createyouraccount {
-  margin-top: 0px;
+.create_account:hover {
+  text-decoration: underline;
+  color: indigo;
 }
