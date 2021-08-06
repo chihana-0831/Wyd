@@ -14,7 +14,7 @@ require('../_parts/header.php');
         <input type="password" name="password" required minlength="8"> <br>
         <!-- submit -->
         <input type="submit" value="Sign In" class="signin"><br>
-    </foam>
+    </form>
     <a href="#" class="create_account">Create Your Account</a>
 </div>
 
