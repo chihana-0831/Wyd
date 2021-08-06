@@ -4,29 +4,19 @@ require('../_parts/header.php');
 
 ?>
 
-
 <div class="signin_form">
     <h3>Sign-in to Your Account</h3>
     <form action="" method="post">
         <input type="hidden" name="signin" value="signedin">
-        <label for="name">Name : </label>
-        <input type="text" name="name" required class="name"> <br>
         <label for="email">School Email : </label>
-        <input type="email" name="email" required class="email"> <br>
-        <label for="grade">Grade : </label>
-        <select name="grade" required>
-            <option value="9th">9</option>
-            <option value="10th">10</option>
-            <option value="11th">11</option>
-            <option value="12th">12</option>
-        </select><br>
+        <input type="email" name="email" required> <br>
         <label for="password">Password : </label>
-        <input type="password" name="password" class="password" required minlength="8"> <br>
-        <button type="submit" class="signin">Sign In</button>
+        <input type="password" name="password" required minlength="8"> <br>
+        <!-- submit -->
+        <input type="submit" value="Sign In" class="signin"><br>
     </form>
-    <p class="CreateYourAccount"><a href="#" class="submit">Creat Your Account</a></p>
+    <a href="#" class="create_account">Create Your Account</a>
 </div>
-
 
 <?php
 
