@@ -42,7 +42,9 @@ a {
 .matching:hover,
 .classes:hover,
 .mypage:hover {
-  font-family: arial black;
+  /* font-family: arial;
+  font-weight: bold;
+  font-size: large; */
   text-shadow: 4px 4px 1px rgb(80, 224, 224);
 }
 
