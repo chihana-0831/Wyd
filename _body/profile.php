@@ -4,11 +4,11 @@ require('../_parts/header.php');
 
 ?>
 
-<div class="profile_form">
+<div class="profile_header">
     <form action="" method="post">
-        <input type="submit" class="profile" value="Profile">
+        <input type="submit" class="profile_profile" value="Profile">
         <p>/</p>
-        <input type="submit" class="schedule" value="Schedule">
+        <input type="submit" class="profile_schedule" value="Schedule">
     </form>
 </div>
 
@@ -23,8 +23,6 @@ require('../_parts/header.php');
         <p>Snapchat : 👻</p>
         <p>Facebook : 💙</p>
     </div>
-
-    <!-- <div class="profile_line"></div> -->
 
     <div class="profile_info">
         <p>Grade : ✨</p>
