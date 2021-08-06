@@ -220,3 +220,72 @@ a {
   text-decoration: none;
   color: rgb(91, 134, 255);
 }
+
+/* profile page */
+
+.profile_form {
+  margin-top: 30px;
+  margin-left: 10%;
+}
+
+.profile_form p {
+  display: inline;
+}
+
+.profile {
+  font-family: arial black;
+  font-size: x-large;
+  border: none;
+  background-color: transparent;
+  text-decoration: underline;
+  text-decoration-thickness: 5px;
+  text-decoration-color: rgb(255, 236, 127);
+}
+
+.schedule {
+  font-family: arial black;
+  font-size: large;
+  border: none;
+  background-color: transparent;
+}
+
+.schedule:hover {
+  color: rgb(255, 236, 127);
+}
+
+.profile_name {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 12%;
+}
+
+.profile_box {
+  margin: auto;
+  width: 90%;
+  box-sizing: border-box;
+  display: flex;
+}
+
+.profile_info {
+  height: 200px;
+  flex-grow: 1;
+  margin-left: 5%;
+}
+
+.profile_sns {
+  height: 200px;
+  flex-grow: 1;
+  margin-left: 5%;
+  border-right: 3px solid;
+}
+
+.profile_interests {
+  margin-top: 40px;
+  margin-left: 12%;
+}
+
+.profile_interests p {
+  margin-left: 5%;
+  display: inline;
+}
+
